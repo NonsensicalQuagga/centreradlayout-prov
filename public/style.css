@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: min(80ch, 80vw - 4rem);
+    margin-inline: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+     max-width: inherit;
+}
+
+nav{
+    padding: 1rem;
+    background-color: black;
+    
+}
+
+nav > div{
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+nav > div > a{
+    text-decoration: none;
+    color: wheat;
+}
+
+nav > div > a:hover{
+    color: aqua;
+}
